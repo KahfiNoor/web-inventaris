@@ -1,0 +1,75 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 80px; /* Set the height you desire */
+    padding: 0 20px;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .menu-item {
+    position: relative;
+    margin: 0 15px;
+  }
+  
+  .menu-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    display: block;
+  }
+  
+  .submenu li a {
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .login {
+    margin-left: auto;
+  }
+  
